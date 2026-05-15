@@ -19,3 +19,4 @@ Thumbs.db
 
 .sass-cache/
 coverage/
+.codex-*.png

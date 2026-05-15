@@ -571,7 +571,7 @@ add_action( 'wp_enqueue_scripts', 'ltw_scripts_loader' );
 function lwt_enqueue_fonts() {
 	wp_enqueue_style(
 		'lwt-fonts',
-		'https://fonts.googleapis.com/css2?family=Barlow:wght@400;600;700;800;900&family=Inter:wght@400;500;600&display=swap',
+		'https://fonts.googleapis.com/css2?family=Barlow:wght@400;600;700;800;900&family=Barlow+Condensed:wght@600;700;800;900&family=Inter:wght@400;500;600&display=swap',
 		array(),
 		null
 	);

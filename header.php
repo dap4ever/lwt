@@ -13,7 +13,7 @@
 <a href="#lwt-main" class="visually-hidden-focusable"><?php esc_html_e( 'Ir para conteúdo principal', 'ltw' ); ?></a>
 
 <?php
-$lwt_logo  = get_theme_mod( 'lwt_logo', '' );
+$lwt_header_logo = get_template_directory_uri() . '/assets/image/logo2-header.png';
 $lwt_phone = get_theme_mod( 'lwt_phone', '+55 (00) 00000-0000' );
 $lwt_email = get_theme_mod( 'lwt_email', 'contato@lwtservice.com.br' );
 $lwt_li    = get_theme_mod( 'lwt_linkedin', '' );
@@ -24,8 +24,8 @@ $lwt_ig    = get_theme_mod( 'lwt_instagram', '' );
 <nav id="lwt-navbar" class="navbar navbar-expand-lg fixed-top" aria-label="Navegação principal">
 	<div class="container">
 
-		<a class="navbar-brand" href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
-			<img src="<?php echo esc_url( $lwt_logo ? $lwt_logo : get_template_directory_uri() . '/assets/image/logo2.png' ); ?>" alt="<?php echo esc_attr( get_bloginfo( 'name' ) ); ?>">
+		<a class="navbar-brand navbar-brand-logo" href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
+			<img src="<?php echo esc_url( $lwt_header_logo ); ?>" alt="<?php echo esc_attr( get_bloginfo( 'name' ) ); ?>">
 		</a>
 
 		<div class="d-flex align-items-center gap-2 d-lg-none">
@@ -52,9 +52,19 @@ $lwt_ig    = get_theme_mod( 'lwt_instagram', '' );
 					<a class="nav-link<?php echo ( is_page( array( 'contacto', 'contato' ) ) ) ? ' active' : ''; ?>" href="<?php echo esc_url( home_url( '/contato/' ) ); ?>">Contato</a>
 				</li>
 			</ul>
-			<a class="btn-lwt nav-cta" href="<?php echo esc_url( home_url( '/orcamento/' ) ); ?>">
-				Pedir Orçamento <span aria-hidden="true">→</span>
-			</a>
+			<div class="header-actions">
+				<button class="header-icon-btn" type="button" aria-label="Pesquisar">
+					<svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+				</button>
+				<button class="header-icon-btn header-grid-btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#lwt-offcanvas" aria-controls="lwt-offcanvas" aria-label="Abrir menu">
+					<span></span><span></span><span></span>
+					<span></span><span></span><span></span>
+					<span></span><span></span><span></span>
+				</button>
+				<a class="btn-lwt nav-cta" href="<?php echo esc_url( home_url( '/orcamento/' ) ); ?>">
+					Pedir Orçamento <span aria-hidden="true">→</span>
+				</a>
+			</div>
 		</div>
 
 	</div>

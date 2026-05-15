@@ -81,9 +81,9 @@ function lwt_customize( $wp_customize ) {
 
 	// --- Hero Slide 1 ---
 	$hero1_fields = array(
-		'lwt_hero1_label'    => array( 'label' => 'Slide 1 — Label', 'default' => 'ENGENHARIA DE AUTOMAÇÃO INDUSTRIAL', 'type' => 'text' ),
-		'lwt_hero1_title'    => array( 'label' => 'Slide 1 — Título', 'default' => 'Especialistas em Automação Industrial', 'type' => 'text' ),
-		'lwt_hero1_subtitle' => array( 'label' => 'Slide 1 — Subtítulo', 'default' => 'Fornecemos mão de obra técnica especializada para projetos industriais, sistemas de controle e soluções automatizadas de alta performance.', 'type' => 'textarea' ),
+		'lwt_hero1_label'    => array( 'label' => 'Slide 1 — Label', 'default' => 'QUALIDADE & EXPERIÊNCIA', 'type' => 'text' ),
+		'lwt_hero1_title'    => array( 'label' => 'Slide 1 — Título', 'default' => 'Precisão em Cada Projeto', 'type' => 'text' ),
+		'lwt_hero1_subtitle' => array( 'label' => 'Slide 1 — Subtítulo', 'default' => 'Mão de obra técnica especializada para automação industrial, sistemas de controle e implementação de soluções automatizadas.', 'type' => 'textarea' ),
 	);
 	foreach ( $hero1_fields as $id => $args ) {
 		$sanitize = ( 'textarea' === $args['type'] ) ? 'sanitize_textarea_field' : 'sanitize_text_field';
@@ -93,8 +93,8 @@ function lwt_customize( $wp_customize ) {
 
 	// --- Hero Slide 2 ---
 	$hero2_fields = array(
-		'lwt_hero2_label'    => array( 'label' => 'Slide 2 — Label', 'default' => 'EXCELÊNCIA TÉCNICA EM CAMPO', 'type' => 'text' ),
-		'lwt_hero2_title'    => array( 'label' => 'Slide 2 — Título', 'default' => 'Do Projeto à Implementação', 'type' => 'text' ),
+		'lwt_hero2_label'    => array( 'label' => 'Slide 2 — Label', 'default' => 'AUTOMAÇÃO INDUSTRIAL', 'type' => 'text' ),
+		'lwt_hero2_title'    => array( 'label' => 'Slide 2 — Título', 'default' => 'Performance em Campo', 'type' => 'text' ),
 		'lwt_hero2_subtitle' => array( 'label' => 'Slide 2 — Subtítulo', 'default' => 'Equipes técnicas certificadas, prontas para atuar em ambientes industriais exigentes com máxima eficiência e segurança.', 'type' => 'textarea' ),
 	);
 	foreach ( $hero2_fields as $id => $args ) {
