@@ -73,11 +73,7 @@ $lwt_ig    = get_theme_mod( 'lwt_instagram', '' );
 <div class="offcanvas offcanvas-end" tabindex="-1" id="lwt-offcanvas" aria-labelledby="lwt-offcanvas-label">
 	<div class="offcanvas-header">
 		<div id="lwt-offcanvas-label">
-			<?php if ( $lwt_logo ) : ?>
-				<img src="<?php echo esc_url( $lwt_logo ); ?>" alt="<?php echo esc_attr( get_bloginfo( 'name' ) ); ?>" height="36">
-			<?php else : ?>
-				<span class="brand-text">LWT <span>SERVICE</span></span>
-			<?php endif; ?>
+			<img src="<?php echo esc_url( $lwt_header_logo ); ?>" alt="<?php echo esc_attr( get_bloginfo( 'name' ) ); ?>" height="36">
 		</div>
 		<button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Fechar"></button>
 	</div>

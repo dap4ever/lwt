@@ -1,15 +1,18 @@
-<?php get_header(); ?>
+<?php
+add_filter(
+	'body_class',
+	function ( $classes ) {
+		$classes[] = 'lwt-contact-page';
+		return $classes;
+	}
+);
 
-<main id="lwt-main-content">
+get_header();
+?>
 
-	<?php
-	get_template_part( 'template-parts/page-banner', null, array(
-		'title'    => 'Contato',
-		'subtitle' => 'Estamos disponíveis para responder às suas dúvidas e analisar o seu próximo projeto.',
-	) );
-	?>
+<main id="lwt-main-content" class="contact-page-main">
 
-	<?php get_template_part( 'template-parts/section-contact' ); ?>
+	<?php get_template_part( 'template-parts/section-contact', null, array( 'page_context' => true ) ); ?>
 
 </main>
 
