@@ -623,3 +623,59 @@ function lwt_open_graph() {
 	}
 }
 add_action( 'wp_head', 'lwt_open_graph' );
+
+// Static routes for key theme pages, so BR slugs work even before WP pages are created.
+function lwt_register_static_page_routes() {
+	add_rewrite_rule( '^contato/?$', 'index.php?lwt_static_page=contato', 'top' );
+	add_rewrite_rule( '^contacto/?$', 'index.php?lwt_static_page=contato', 'top' );
+	add_rewrite_rule( '^portifolio/?$', 'index.php?lwt_static_page=portifolio', 'top' );
+	add_rewrite_rule( '^portfolio/?$', 'index.php?lwt_static_page=portifolio', 'top' );
+}
+add_action( 'init', 'lwt_register_static_page_routes' );
+
+function lwt_static_page_query_vars( $vars ) {
+	$vars[] = 'lwt_static_page';
+	return $vars;
+}
+add_filter( 'query_vars', 'lwt_static_page_query_vars' );
+
+function lwt_static_page_template( $template ) {
+	$static_page = get_query_var( 'lwt_static_page' );
+
+	if ( 'contato' === $static_page ) {
+		return get_template_directory() . '/page-contacto.php';
+	}
+
+	if ( 'portifolio' === $static_page ) {
+		return get_template_directory() . '/page-portfolio.php';
+	}
+
+	return $template;
+}
+add_filter( 'template_include', 'lwt_static_page_template' );
+
+function lwt_static_page_status() {
+	if ( get_query_var( 'lwt_static_page' ) ) {
+		global $wp_query;
+		$wp_query->is_404 = false;
+		status_header( 200 );
+	}
+}
+add_action( 'template_redirect', 'lwt_static_page_status', 1 );
+
+function lwt_flush_rewrite_rules_on_switch() {
+	lwt_register_static_page_routes();
+	flush_rewrite_rules();
+}
+add_action( 'after_switch_theme', 'lwt_flush_rewrite_rules_on_switch' );
+
+function lwt_maybe_flush_static_page_routes() {
+	$route_version = '2026-05-15-br-routes';
+
+	if ( get_option( 'lwt_static_page_routes_version' ) !== $route_version ) {
+		lwt_register_static_page_routes();
+		flush_rewrite_rules( false );
+		update_option( 'lwt_static_page_routes_version', $route_version );
+	}
+}
+add_action( 'init', 'lwt_maybe_flush_static_page_routes', 20 );

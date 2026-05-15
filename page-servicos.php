@@ -4,7 +4,7 @@
 
 	<?php
 	get_template_part( 'template-parts/page-banner', null, array(
-		'title'    => 'Os nossos Serviços',
+		'title'    => 'Nossos Serviços',
 		'subtitle' => 'Soluções técnicas especializadas para os maiores desafios da automação e engenharia industrial.',
 	) );
 	?>
@@ -64,7 +64,7 @@
 		<div class="circuit-overlay" aria-hidden="true"></div>
 		<div class="container position-relative text-center animate-on-scroll">
 			<h2 class="section-title text-white mb-3">Precisa de um serviço específico?</h2>
-			<p class="cta-subtitle">Diga-nos o que precisa. A nossa equipa analisa e prepara uma proposta personalizada.</p>
+			<p class="cta-subtitle">Conte o que você precisa. Nossa equipe analisa e prepara uma proposta personalizada.</p>
 			<a href="<?php echo esc_url( home_url( '/orcamento/' ) ); ?>" class="btn-lwt mt-4">Pedir Orçamento →</a>
 		</div>
 	</section>

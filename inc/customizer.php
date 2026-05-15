@@ -66,7 +66,7 @@ function lwt_customize( $wp_customize ) {
 	}
 
 	$wp_customize->add_setting( 'lwt_address', array( 'default' => '', 'sanitize_callback' => 'sanitize_textarea_field' ) );
-	$wp_customize->add_control( 'lwt_address', array( 'type' => 'textarea', 'label' => 'Morada', 'section' => 'lwt_company_section' ) );
+	$wp_customize->add_control( 'lwt_address', array( 'type' => 'textarea', 'label' => 'Endereço', 'section' => 'lwt_company_section' ) );
 
 	// --- Social ---
 	$social_fields = array(
@@ -95,7 +95,7 @@ function lwt_customize( $wp_customize ) {
 	$hero2_fields = array(
 		'lwt_hero2_label'    => array( 'label' => 'Slide 2 — Label', 'default' => 'EXCELÊNCIA TÉCNICA EM CAMPO', 'type' => 'text' ),
 		'lwt_hero2_title'    => array( 'label' => 'Slide 2 — Título', 'default' => 'Do Projeto à Implementação', 'type' => 'text' ),
-		'lwt_hero2_subtitle' => array( 'label' => 'Slide 2 — Subtítulo', 'default' => 'Equipas técnicas certificadas, prontas para atuar em ambientes industriais exigentes com máxima eficiência e segurança.', 'type' => 'textarea' ),
+		'lwt_hero2_subtitle' => array( 'label' => 'Slide 2 — Subtítulo', 'default' => 'Equipes técnicas certificadas, prontas para atuar em ambientes industriais exigentes com máxima eficiência e segurança.', 'type' => 'textarea' ),
 	);
 	foreach ( $hero2_fields as $id => $args ) {
 		$sanitize = ( 'textarea' === $args['type'] ) ? 'sanitize_textarea_field' : 'sanitize_text_field';

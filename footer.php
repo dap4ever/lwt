@@ -47,9 +47,9 @@ $lwt_logo      = get_theme_mod( 'lwt_logo', '' );
 					<li><a href="<?php echo esc_url( home_url( '/' ) ); ?>">Início</a></li>
 					<li><a href="<?php echo esc_url( home_url( '/sobre-nos/' ) ); ?>">Sobre Nós</a></li>
 					<li><a href="<?php echo esc_url( home_url( '/servicos/' ) ); ?>">Serviços</a></li>
-					<li><a href="<?php echo esc_url( home_url( '/portfolio/' ) ); ?>">Portfólio</a></li>
+					<li><a href="<?php echo esc_url( home_url( '/portifolio/' ) ); ?>">Portfólio</a></li>
 					<li><a href="<?php echo esc_url( home_url( '/noticias/' ) ); ?>">Blog</a></li>
-					<li><a href="<?php echo esc_url( home_url( '/contacto/' ) ); ?>">Contacto</a></li>
+					<li><a href="<?php echo esc_url( home_url( '/contato/' ) ); ?>">Contato</a></li>
 				</ul>
 			</div>
 
@@ -68,7 +68,7 @@ $lwt_logo      = get_theme_mod( 'lwt_logo', '' );
 
 			<!-- Col 4: Contact -->
 			<div class="col-lg-3 col-md-6 footer-col">
-				<h5 class="footer-heading">Contacto</h5>
+				<h5 class="footer-heading">Contato</h5>
 
 				<?php if ( $lwt_address ) : ?>
 					<div class="footer-contact-item">

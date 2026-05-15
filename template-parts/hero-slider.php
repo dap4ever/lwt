@@ -5,7 +5,7 @@ $slide1_subtitle = get_theme_mod( 'lwt_hero1_subtitle', 'Fornecemos mão de obra
 
 $slide2_label    = get_theme_mod( 'lwt_hero2_label', 'EXCELÊNCIA TÉCNICA EM CAMPO' );
 $slide2_title    = get_theme_mod( 'lwt_hero2_title', 'Do Projeto à Implementação' );
-$slide2_subtitle = get_theme_mod( 'lwt_hero2_subtitle', 'Equipas técnicas certificadas, prontas para atuar em ambientes industriais exigentes com máxima eficiência e segurança.' );
+$slide2_subtitle = get_theme_mod( 'lwt_hero2_subtitle', 'Equipes técnicas certificadas, prontas para atuar em ambientes industriais exigentes com máxima eficiência e segurança.' );
 ?>
 <section class="hero-section" id="hero">
 	<div class="circuit-overlay" aria-hidden="true"></div>
@@ -34,7 +34,7 @@ $slide2_subtitle = get_theme_mod( 'lwt_hero2_subtitle', 'Equipas técnicas certi
 							<a href="<?php echo esc_url( home_url( '/servicos/' ) ); ?>" class="btn-lwt">
 								Conhecer Serviços <span aria-hidden="true">→</span>
 							</a>
-							<a href="<?php echo esc_url( home_url( '/portfolio/' ) ); ?>" class="btn-lwt-outline">
+							<a href="<?php echo esc_url( home_url( '/portifolio/' ) ); ?>" class="btn-lwt-outline">
 								Ver Portfólio
 							</a>
 						</div>

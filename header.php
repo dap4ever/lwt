@@ -46,10 +46,10 @@ $lwt_ig    = get_theme_mod( 'lwt_instagram', '' );
 					<a class="nav-link<?php echo ( is_page( 'servicos' ) ) ? ' active' : ''; ?>" href="<?php echo esc_url( home_url( '/servicos/' ) ); ?>">Serviços</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link<?php echo ( is_page( 'portfolio' ) ) ? ' active' : ''; ?>" href="<?php echo esc_url( home_url( '/portfolio/' ) ); ?>">Portfólio</a>
+					<a class="nav-link<?php echo ( is_page( array( 'portfolio', 'portifolio' ) ) ) ? ' active' : ''; ?>" href="<?php echo esc_url( home_url( '/portifolio/' ) ); ?>">Portfólio</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link<?php echo ( is_page( 'contacto' ) ) ? ' active' : ''; ?>" href="<?php echo esc_url( home_url( '/contacto/' ) ); ?>">Contacto</a>
+					<a class="nav-link<?php echo ( is_page( array( 'contacto', 'contato' ) ) ) ? ' active' : ''; ?>" href="<?php echo esc_url( home_url( '/contato/' ) ); ?>">Contato</a>
 				</li>
 			</ul>
 			<a class="btn-lwt nav-cta" href="<?php echo esc_url( home_url( '/orcamento/' ) ); ?>">
@@ -77,8 +77,8 @@ $lwt_ig    = get_theme_mod( 'lwt_instagram', '' );
 			<li><a href="<?php echo esc_url( home_url( '/' ) ); ?>">Início</a></li>
 			<li><a href="<?php echo esc_url( home_url( '/sobre-nos/' ) ); ?>">Sobre Nós</a></li>
 			<li><a href="<?php echo esc_url( home_url( '/servicos/' ) ); ?>">Serviços</a></li>
-			<li><a href="<?php echo esc_url( home_url( '/portfolio/' ) ); ?>">Portfólio</a></li>
-			<li><a href="<?php echo esc_url( home_url( '/contacto/' ) ); ?>">Contacto</a></li>
+			<li><a href="<?php echo esc_url( home_url( '/portifolio/' ) ); ?>">Portfólio</a></li>
+			<li><a href="<?php echo esc_url( home_url( '/contato/' ) ); ?>">Contato</a></li>
 		</ul>
 
 		<div class="mt-auto">

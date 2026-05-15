@@ -3,7 +3,7 @@
 		<div class="row justify-content-center text-center mb-5">
 			<div class="col-lg-8 animate-on-scroll">
 				<span class="section-label">O QUE FAZEMOS</span>
-				<h2 class="section-title">Os nossos serviços fazem de nós uma referência na automação industrial</h2>
+				<h2 class="section-title">Nossos serviços fazem da LWT Service uma referência em automação industrial</h2>
 				<p class="section-subtitle">Soluções técnicas especializadas para os desafios mais exigentes da indústria.</p>
 			</div>
 		</div>

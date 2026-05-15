@@ -8,7 +8,7 @@
 					<?php
 					$about_image_id = get_theme_mod( 'lwt_about_image', 0 );
 					if ( $about_image_id ) {
-						echo wp_get_attachment_image( $about_image_id, 'large', false, array( 'alt' => 'LWT Service — Equipa técnica' ) );
+						echo wp_get_attachment_image( $about_image_id, 'large', false, array( 'alt' => 'LWT Service — Equipe técnica' ) );
 					}
 					?>
 					<div class="about-badge">
@@ -33,7 +33,7 @@
 						<span class="list-num">01.</span>
 						<div class="list-content">
 							<h5>Profissionais Certificados</h5>
-							<p>Toda a equipa detém certificações técnicas reconhecidas no setor.</p>
+							<p>Toda a equipe possui certificações técnicas reconhecidas no setor.</p>
 						</div>
 					</li>
 					<li>
@@ -59,7 +59,7 @@
 					</li>
 				</ul>
 
-				<a href="<?php echo esc_url( home_url( '/portfolio/' ) ); ?>" class="btn-lwt animate-on-scroll animate-delay-2">
+				<a href="<?php echo esc_url( home_url( '/portifolio/' ) ); ?>" class="btn-lwt animate-on-scroll animate-delay-2">
 					O nosso portfólio <span aria-hidden="true">→</span>
 				</a>
 			</div>

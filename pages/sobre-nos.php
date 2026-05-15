@@ -7,7 +7,7 @@ get_header();
 
 <main id="lwt-main-content">
 
-	<?php get_template_part( 'template-parts/page-banner', null, array( 'title' => 'Sobre Nós', 'subtitle' => 'Conheça a nossa história e equipa técnica.' ) ); ?>
+	<?php get_template_part( 'template-parts/page-banner', null, array( 'title' => 'Sobre Nós', 'subtitle' => 'Conheça a nossa história e equipe técnica.' ) ); ?>
 
 	<?php get_template_part( 'template-parts/section-about' ); ?>
 

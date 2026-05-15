@@ -84,7 +84,7 @@
 		<div class="circuit-overlay" aria-hidden="true"></div>
 		<div class="container position-relative text-center animate-on-scroll">
 			<h2 class="section-title text-white mb-3">O próximo projeto pode ser o seu</h2>
-			<p class="cta-subtitle">Fale connosco e descubra como podemos trazer resultados ao seu projeto industrial.</p>
+			<p class="cta-subtitle">Fale conosco e descubra como podemos trazer resultados ao seu projeto industrial.</p>
 			<a href="<?php echo esc_url( home_url( '/orcamento/' ) ); ?>" class="btn-lwt mt-4">Pedir Orçamento →</a>
 		</div>
 	</section>

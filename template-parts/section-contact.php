@@ -3,7 +3,7 @@
 		<div class="row justify-content-center text-center mb-5">
 			<div class="col-lg-7 animate-on-scroll">
 				<span class="section-label">FALE CONOSCO</span>
-				<h2 class="section-title">Entre em contacto com a nossa equipa</h2>
+				<h2 class="section-title">Entre em contato com a nossa equipe</h2>
 			</div>
 		</div>
 

@@ -247,8 +247,8 @@ Build a sticky navbar that:
 - Início (`/`)
 - Sobre Nós (`/sobre-nos/`)
 - Serviços (`/servicos/`)
-- Portfólio (`/portfolio/`)
-- Contacto (`/contacto/`)
+- Portfólio (`/portifolio/`)
+- Contato (`/contato/`)
 
 **Far right:** CTA button — `<a class="btn-lwt" href="/orcamento/">Pedir Orçamento <span>→</span></a>`
 
@@ -314,7 +314,7 @@ Full 4-column footer on very dark background (`#060D20`).
 
 **Column 2 — Quick Links:**
 - Title: "Navegação"
-- Links: Início, Sobre Nós, Serviços, Portfólio, Blog, Contacto
+- Links: Início, Sobre Nós, Serviços, Portfólio, Blog, Contato
 - Each with a subtle right-arrow prefix `→`
 
 **Column 3 — Services:**
@@ -322,7 +322,7 @@ Full 4-column footer on very dark background (`#060D20`).
 - Engenharia de Automação, Sistemas de Controle, Projetos Industriais, Mão de Obra Especializada, Painéis Elétricos, Instrumentação
 
 **Column 4 — Contact:**
-- Title: "Contacto"
+- Title: "Contato"
 - Address: with location pin icon
 - Phone: with phone icon (from Customizer)
 - Email: with envelope icon (from Customizer)
@@ -445,7 +445,7 @@ Structure using `get_template_part()` for each section:
 **Slide 2:**
 - Small label: `EXCELÊNCIA TÉCNICA EM CAMPO`
 - H1: `Do Projeto à` + line break + `<span class="text-electric">Implementação</span>`
-- Subtitle: `Equipas técnicas certificadas, prontas para atuar em ambientes industriais exigentes com máxima eficiência e segurança.`
+- Subtitle: `Equipes técnicas certificadas, prontas para atuar em ambientes industriais exigentes com máxima eficiência e segurança.`
 - Two buttons: `[Pedir Orçamento →]` (primary) `[Sobre Nós]` (outline)
 
 **Scroll indicator:** Bottom center animated bouncing arrow → `↓`
@@ -533,7 +533,7 @@ Structure using `get_template_part()` for each section:
 
 **Layout:**
 - Top: `<span class="section-label">O QUE FAZEMOS</span>`
-- H2: `Os nossos serviços fazem de nós uma referência na automação industrial`
+- H2: `Nossos serviços fazem de nós uma referência na automação industrial`
 - Subtitle paragraph: muted, max 600px wide
 - Grid: `row g-4` with 4 cards `col-lg-3 col-md-6`
 
@@ -627,7 +627,7 @@ Structure using `get_template_part()` for each section:
 - Numbered list (01–04):
   ```
   01. Profissionais Certificados
-      Toda a equipa detém certificações técnicas reconhecidas no setor.
+      Toda a Equipe detém certificações técnicas reconhecidas no setor.
   02. Experiência em Campo
       Anos de atuação em ambientes industriais exigentes e complexos.
   03. Soluções à Medida
@@ -946,7 +946,7 @@ document.querySelectorAll('.counter-number').forEach(el => counterObserver.obser
 
 **Visual:** Dark navy background. 2 columns: form left, contact info right. Google Maps full-width below.
 
-**Form:** Contact Form 7 shortcode `[contact-form-7 id="..." title="Contacto Homepage"]` with custom styling to override CF7 defaults — match theme colors, border-radius 4px, focus electric blue border.
+**Form:** Contact Form 7 shortcode `[contact-form-7 id="..." title="Contato Homepage"]` with custom styling to override CF7 defaults — match theme colors, border-radius 4px, focus electric blue border.
 
 **Contact info column:**
 - Phone (from Customizer `lwt_phone`)
@@ -1077,14 +1077,14 @@ document.querySelectorAll('.filter-btn').forEach(btn => {
 
 ### `page-contact.php`
 ```
-page-banner.php (title: "Contacto")
+page-banner.php (title: "Contato")
 → 2-col section: CF7 form left, contact info right (light background)
 → Google Maps iframe (full width, 450px height, grayscale filter)
 ```
 
 ### `page-quote.php`
 ```
-page-banner.php (title: "Pedir Orçamento", subtitle: "Descreva o seu projeto e entraremos em contacto em 24 horas.")
+page-banner.php (title: "Pedir Orçamento", subtitle: "Descreva o seu projeto e entraremos em Contato em 24 horas.")
 → Centered full form: name, company, email, phone, project type (select), estimated timeline (select), detailed description (textarea), privacy checkbox
 → CTA section below: contact info + working hours (dark background)
 ```
@@ -1099,7 +1099,7 @@ Add a section `"LWT Service — Configurações"` with these controls:
 // Company info
 lwt_phone     → text   → "Telefone"
 lwt_email     → text   → "Email"
-lwt_address   → textarea → "Morada"
+lwt_address   → textarea → "Endereço"
 lwt_hours     → text   → "Horário"
 
 // Social

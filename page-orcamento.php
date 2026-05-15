@@ -5,7 +5,7 @@
 	<?php
 	get_template_part( 'template-parts/page-banner', null, array(
 		'title'    => 'Pedir Orçamento',
-		'subtitle' => 'Descreva o seu projeto ou necessidade. A nossa equipa responde em 24 horas úteis.',
+		'subtitle' => 'Descreva o seu projeto ou necessidade. Nossa equipe responde em até 24 horas úteis.',
 	) );
 	?>
 
@@ -99,7 +99,7 @@
 								<span class="step-num">02</span>
 								<div>
 									<strong>Análise técnica</strong>
-									<p>A nossa equipa avalia e contacta-o em 24h úteis.</p>
+									<p>Nossa equipe avalia e entra em contato em até 24h úteis.</p>
 								</div>
 							</li>
 							<li>

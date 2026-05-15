@@ -172,7 +172,7 @@ get_header();
 			<div class="row align-items-center justify-content-between g-4">
 				<div class="col-lg-7 animate-on-scroll">
 					<h2 class="section-title mb-2">Precisa de especialistas em automação?</h2>
-					<p class="text-mid mb-0">Entre em contacto e descubra como a LWT Service pode otimizar seus processos industriais.</p>
+					<p class="text-mid mb-0">Entre em contato e descubra como a LWT Service pode otimizar seus processos industriais.</p>
 				</div>
 				<div class="col-lg-auto animate-on-scroll animate-delay-1">
 					<a href="<?php echo esc_url( home_url( '/orcamento/' ) ); ?>" class="btn-lwt">Pedir Orçamento →</a>

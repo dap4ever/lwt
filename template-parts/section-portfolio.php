@@ -6,7 +6,7 @@
 				<h2 class="section-title mb-0">Conheça alguns dos nossos projetos industriais</h2>
 			</div>
 			<div class="col-lg-auto mt-3 mt-lg-0 animate-on-scroll animate-delay-1">
-				<a href="<?php echo esc_url( home_url( '/portfolio/' ) ); ?>" class="btn-lwt-outline">
+				<a href="<?php echo esc_url( home_url( '/portifolio/' ) ); ?>" class="btn-lwt-outline">
 					Ver portfólio completo →
 				</a>
 			</div>

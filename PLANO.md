@@ -14,7 +14,7 @@
 | Nome | Hex | Uso |
 |------|-----|-----|
 | Fundo Escuro | `#060D20` | Footer, fundos muito escuros |
-| Navy Profundo | `#0A1128` | Hero, secções escuras |
+| Navy Profundo | `#0A1128` | Hero, seções escuras |
 | Navy Principal | `#0D1B4B` | Navbar sólida, cards escuros |
 | Azul Principal | `#1A4AFF` | Botões primários, destaques |
 | Azul Elétrico | `#00AAFF` | Labels, ícones, hover, circuit |
@@ -45,8 +45,8 @@
 | Página Inicial | `/` | `front-page.php` |
 | Sobre Nós | `/sobre-nos/` | `page-about.php` |
 | Serviços | `/servicos/` | `page-services.php` |
-| Portfólio | `/portfolio/` | `page-portfolio.php` |
-| Contacto | `/contacto/` | `page-contact.php` |
+| Portfólio | `/portifolio/` | `page-portfolio.php` |
+| Contato | `/contato/` | `page-contact.php` |
 | Pedir Orçamento | `/orcamento/` | `page-quote.php` |
 | Blog / Notícias | `/noticias/` | `archive.php` |
 
@@ -90,18 +90,18 @@ functions.php           ← adicionar enqueue Google Fonts
 
 - [ ] Navbar Bootstrap com classe `.navbar-lwt`
 - [ ] Logo LWT à esquerda (via customizer)
-- [ ] Menu de navegação: Início · Sobre · Serviços · Portfólio · Contacto
+- [ ] Menu de navegação: Início · Sobre · Serviços · Portfólio · Contato
 - [ ] Botão CTA **"Pedir Orçamento"** à direita (azul gradiente)
 - [ ] Efeito scroll: navbar transparente no topo → navy sólido ao fazer scroll (JS)
-- [ ] Menu mobile: offcanvas lateral escuro com links + dados de contacto rápidos + redes sociais
+- [ ] Menu mobile: offcanvas lateral escuro com links + dados de Contato rápidos + redes sociais
 
 #### Footer (`footer.php`)
 
 - [ ] Fundo `#060D20`
 - [ ] **Coluna 1:** Logo + tagline + ícones de redes sociais
-- [ ] **Coluna 2:** Links rápidos (Início, Sobre, Serviços, Portfólio, Contacto)
+- [ ] **Coluna 2:** Links rápidos (Início, Sobre, Serviços, Portfólio, Contato)
 - [ ] **Coluna 3:** Serviços (Automação, Sistemas de Controle, Projetos Industriais, Mão de Obra)
-- [ ] **Coluna 4:** Contacto (morada, telefone, email, horário)
+- [ ] **Coluna 4:** Contato (Endereço, telefone, email, horário)
 - [ ] Barra inferior: copyright + "Todos os direitos reservados"
 
 #### Banner Interno de Página (`inc/template-parts/page-banner.php`)
@@ -123,9 +123,9 @@ template-parts/page-banner.php      ← criar
 
 ### FASE 3 — Homepage (`front-page.php`)
 
-> A página mais importante. 8 secções do hero ao contacto.
+> A página mais importante. 8 seções do hero ao Contato.
 
-#### Secções (ordem)
+#### seções (ordem)
 
 **01. Hero Slider**
 - 2 slides full-width, fundo navy + SVG circuit como background
@@ -141,7 +141,7 @@ template-parts/page-banner.php      ← criar
 - Fundo branco/claro, hover com border azul
 
 **03. Sobre a Empresa**
-- 2 colunas: imagem técnica (obra/equipa) à esquerda
+- 2 colunas: imagem técnica (obra/Equipe) à esquerda
 - Texto: *"Experiência que faz a diferença"* + parágrafo
 - Lista numerada (01–04): Profissionais Certificados · Experiência em Campo · Soluções à Medida · Suporte Contínuo
 - Botão "O nosso portfólio"
@@ -173,9 +173,9 @@ template-parts/page-banner.php      ← criar
 - Card: imagem, categoria, data, título, excerto truncado, link
 - Grid 3 colunas desktop, 1 coluna mobile
 
-**08. Contacto / CTA Final**
+**08. Contato / CTA Final**
 - Fundo navy
-- 2 colunas: formulário Contact Form 7 + coluna com dados (morada, tel, email, horário)
+- 2 colunas: formulário Contact Form 7 + coluna com dados (Endereço, tel, email, horário)
 - Google Maps embed full-width abaixo
 
 #### Ficheiros Envolvidos
@@ -198,16 +198,16 @@ assets/main.js                      ← adicionar contador animado
 
 #### Sobre Nós (`page-about.php`)
 - [ ] Banner interno (page-banner.php)
-- [ ] Secção: A Nossa História — texto + imagem
-- [ ] Secção: Estatísticas (contadores)
-- [ ] Secção: A Nossa Equipa — cards com foto, nome, cargo
-- [ ] Secção: Como Trabalhamos — lista numerada 01–04
-- [ ] Secção: Logos de Clientes / Parceiros — carousel horizontal
+- [ ] Seção: A Nossa História — texto + imagem
+- [ ] Seção: Estatísticas (contadores)
+- [ ] Seção: A Nossa Equipe — cards com foto, nome, cargo
+- [ ] Seção: Como Trabalhamos — lista numerada 01–04
+- [ ] Seção: Logos de Clientes / Parceiros — carousel horizontal
 
 #### Serviços (`page-services.php`)
 - [ ] Banner interno
 - [ ] Grid completo de serviços (6–8 cards detalhados)
-- [ ] Secção escura "Como trabalhamos" — imagem + texto técnico
+- [ ] Seção escura "Como trabalhamos" — imagem + texto técnico
 - [ ] Projetos relacionados (3 itens)
 - [ ] CTA: Pedido de orçamento rápido
 
@@ -218,10 +218,10 @@ assets/main.js                      ← adicionar contador animado
 - [ ] Hover overlay com categoria + nome + link
 - [ ] Paginação ou botão "Carregar mais"
 
-#### Contacto (`page-contact.php`)
+#### Contato (`page-contact.php`)
 - [ ] Banner interno
-- [ ] 2 colunas: formulário (Contact Form 7) + dados de contacto
-- [ ] Dados: morada, telefone, email, horário de funcionamento
+- [ ] 2 colunas: formulário (Contact Form 7) + dados de Contato
+- [ ] Dados: Endereço, telefone, email, horário de funcionamento
 - [ ] Google Maps iframe full-width
 
 #### Pedido de Orçamento (`page-quote.php`)
@@ -238,13 +238,13 @@ assets/main.js                      ← adicionar contador animado
 - [ ] **CPT: Testemunhos** (`testimonials`) — campos: empresa, cargo, foto
 
 #### Theme Customizer (`inc/customizer.php`)
-- [ ] Secção "LWT Service — Dados da Empresa":
+- [ ] Seção "LWT Service — Dados da Empresa":
   - Telefone principal
-  - Email de contacto
-  - Morada completa
+  - Email de Contato
+  - Endereço completa
   - Horário de funcionamento
   - Links redes sociais (LinkedIn, Facebook, Instagram)
-- [ ] Secção "LWT Service — Hero":
+- [ ] Seção "LWT Service — Hero":
   - Título slide 1 + subtítulo
   - Título slide 2 + subtítulo
   - Texto do botão CTA principal
@@ -284,7 +284,7 @@ get_template_part('template-parts/section-testimonials'); // Carousel
 
 | Plugin | Função | Prioridade |
 |--------|--------|------------|
-| Contact Form 7 | Formulários de contacto e orçamento | Alta |
+| Contact Form 7 | Formulários de Contato e orçamento | Alta |
 | Yoast SEO | SEO, sitemap, Open Graph | Alta |
 | Classic Editor | Edição de conteúdo simples | Média |
 | WP Rocket | Cache e performance | Média |
@@ -300,7 +300,7 @@ themes/ltw/
 ├── page-about.php              🆕 Sobre Nós
 ├── page-services.php           🆕 Serviços
 ├── page-portfolio.php          🆕 Portfólio
-├── page-contact.php            🆕 Contacto
+├── page-contact.php            🆕 Contato
 ├── page-quote.php              🆕 Pedir Orçamento
 ├── header.php                  ✏️ Reescrever — navbar sticky
 ├── footer.php                  ✏️ Reescrever — 4 colunas
@@ -328,8 +328,8 @@ themes/ltw/
 └── template-parts/
     ├── page-banner.php         🆕 Banner interno reutilizável
     ├── hero-slider.php         🆕 Hero da homepage
-    ├── section-services.php    🆕 Secção serviços
-    ├── section-about.php       🆕 Secção sobre
+    ├── section-services.php    🆕 Seção serviços
+    ├── section-about.php       🆕 Seção sobre
     ├── section-stats.php       🆕 Contadores animados
     ├── section-portfolio.php   🆕 Grid portfólio
     ├── section-testimonials.php 🆕 Carousel testemunhos
@@ -363,11 +363,11 @@ Legenda: 🆕 Criar novo  ✏️ Modificar existente  ✅ Manter igual
 2. Header: navbar sticky transparente → solid
 3. Footer: 4 colunas completo
 4. functions.php: CPTs + menus + Google Fonts
-5. front-page.php: homepage secção a secção
+5. front-page.php: homepage Seção a Seção
 6. page-about.php: Sobre Nós
 7. page-services.php: Serviços
 8. page-portfolio.php: Portfólio com filtros
-9. page-contact.php: Contacto + mapa
+9. page-contact.php: Contato + mapa
 10. page-quote.php: Formulário orçamento
 11. Polimento: animações, responsividade, SEO, testes
 ```
@@ -378,8 +378,8 @@ Legenda: 🆕 Criar novo  ✏️ Modificar existente  ✅ Manter igual
 
 - [ ] Textos definitivos dos serviços
 - [ ] Fotografias de projetos concluídos
-- [ ] Fotografias da equipa
-- [ ] Dados de contacto completos (morada, NIF, telefone, email)
+- [ ] Fotografias da Equipe
+- [ ] Dados de Contato completos (Endereço, NIF, telefone, email)
 - [ ] Testemunhos de clientes (nome, empresa, texto)
 - [ ] Logos de clientes / parceiros
 - [ ] Vídeo institucional (opcional)
