@@ -36,16 +36,32 @@ import './main.scss';
 	}
 
 	// --- Scroll indicator click ---
-	var scrollIndicator = document.querySelector('.scroll-indicator');
-	if (scrollIndicator) {
+	document.querySelectorAll('.scroll-indicator').forEach(function (scrollIndicator) {
 		scrollIndicator.addEventListener('click', function () {
-			var target = document.querySelector('.hero-section + section') ||
-				document.querySelector('.hero-section ~ *');
-			if (target) {
-				target.scrollIntoView({ behavior: 'smooth' });
+			var targetSelector = scrollIndicator.getAttribute('data-scroll-target');
+			var heroSection = scrollIndicator.closest('.hero-section');
+			var target = targetSelector ? document.querySelector(targetSelector) : null;
+
+			if (!target && heroSection) {
+				target = heroSection.nextElementSibling;
+				while (target && target.tagName && target.tagName.toLowerCase() !== 'section') {
+					target = target.nextElementSibling;
+				}
 			}
+
+			if (!target) {
+				return;
+			}
+
+			var headerOffset = navbar ? navbar.offsetHeight : 0;
+			var targetTop = target.getBoundingClientRect().top + window.pageYOffset - headerOffset;
+
+			window.scrollTo({
+				top: Math.max(targetTop, 0),
+				behavior: 'smooth',
+			});
 		});
-	}
+	});
 
 	// --- Counter animation ---
 	function animateCounter(el) {

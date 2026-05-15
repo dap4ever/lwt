@@ -72,6 +72,6 @@ $slide2_subtitle = get_theme_mod( 'lwt_hero2_subtitle', 'Equipes técnicas certi
 	</div><!-- /.carousel -->
 
 	<!-- Scroll indicator -->
-	<button class="scroll-indicator" aria-label="Rolar para baixo" type="button"><span>Role para baixo</span><i aria-hidden="true">↓</i></button>
+	<button class="scroll-indicator" aria-label="Rolar para a próxima seção" type="button" data-scroll-target="#servicos"><span>Role para baixo</span><i aria-hidden="true">↓</i></button>
 
 </section>
