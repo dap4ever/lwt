@@ -1,7 +1,4 @@
 <?php
-/**
- * Template Name: Portfólio
- */
 get_header();
 ?>
 

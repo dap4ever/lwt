@@ -1,6 +1,5 @@
 <?php
 /**
- * Template Name: Not found
  * Description: Page template 404 Not found.
  *
  */
