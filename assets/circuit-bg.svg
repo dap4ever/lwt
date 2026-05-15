@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 800" preserveAspectRatio="xMidYMid slice">
+  <g stroke="#00AAFF" fill="none" stroke-width="1.5" stroke-linecap="round">
+    <!-- Trace 1: top horizontal path -->
+    <line x1="0" y1="80" x2="220" y2="80"/>
+    <circle cx="220" cy="80" r="3.5" fill="#00AAFF"/>
+    <line x1="220" y1="80" x2="220" y2="180"/>
+    <circle cx="220" cy="180" r="3.5" fill="#00AAFF"/>
+    <line x1="220" y1="180" x2="520" y2="180"/>
+    <circle cx="520" cy="180" r="3.5" fill="#00AAFF"/>
+    <line x1="520" y1="180" x2="520" y2="80"/>
+    <line x1="520" y1="80" x2="900" y2="80"/>
+    <circle cx="900" cy="80" r="3.5" fill="#00AAFF"/>
+    <line x1="900" y1="80" x2="900" y2="200"/>
+    <circle cx="900" cy="200" r="3.5" fill="#00AAFF"/>
+    <line x1="900" y1="200" x2="1200" y2="200"/>
+    <circle cx="1200" cy="200" r="3.5" fill="#00AAFF"/>
+    <line x1="1200" y1="200" x2="1200" y2="80"/>
+    <line x1="1200" y1="80" x2="1420" y2="80"/>
+    <polygon points="1435,80 1420,73 1420,87" fill="#00AAFF"/>
+
+    <!-- Trace 2: second horizontal path -->
+    <line x1="0" y1="260" x2="140" y2="260"/>
+    <circle cx="140" cy="260" r="3.5" fill="#00AAFF"/>
+    <line x1="140" y1="260" x2="140" y2="320"/>
+    <circle cx="140" cy="320" r="3.5" fill="#00AAFF"/>
+    <line x1="140" y1="320" x2="400" y2="320"/>
+    <circle cx="400" cy="320" r="3.5" fill="#00AAFF"/>
+    <line x1="400" y1="320" x2="400" y2="260"/>
+    <line x1="400" y1="260" x2="680" y2="260"/>
+    <circle cx="680" cy="260" r="3.5" fill="#00AAFF"/>
+    <line x1="680" y1="260" x2="680" y2="380"/>
+    <circle cx="680" cy="380" r="3.5" fill="#00AAFF"/>
+    <line x1="680" y1="380" x2="1050" y2="380"/>
+    <circle cx="1050" cy="380" r="3.5" fill="#00AAFF"/>
+    <line x1="1050" y1="380" x2="1050" y2="260"/>
+    <line x1="1050" y1="260" x2="1440" y2="260"/>
+
+    <!-- Trace 3: mid path with branches -->
+    <line x1="0" y1="450" x2="300" y2="450"/>
+    <circle cx="300" cy="450" r="3.5" fill="#00AAFF"/>
+    <line x1="300" y1="450" x2="300" y2="520"/>
+    <circle cx="300" cy="520" r="3.5" fill="#00AAFF"/>
+    <line x1="300" y1="520" x2="600" y2="520"/>
+    <circle cx="600" cy="520" r="3.5" fill="#00AAFF"/>
+    <line x1="600" y1="520" x2="600" y2="450"/>
+    <line x1="600" y1="450" x2="850" y2="450"/>
+    <circle cx="850" cy="450" r="3.5" fill="#00AAFF"/>
+    <line x1="850" y1="450" x2="850" y2="560"/>
+    <circle cx="850" cy="560" r="3.5" fill="#00AAFF"/>
+    <line x1="850" y1="560" x2="1150" y2="560"/>
+    <circle cx="1150" cy="560" r="3.5" fill="#00AAFF"/>
+    <line x1="1150" y1="560" x2="1150" y2="450"/>
+    <line x1="1150" y1="450" x2="1440" y2="450"/>
+
+    <!-- Trace 4: bottom path -->
+    <line x1="0" y1="640" x2="180" y2="640"/>
+    <circle cx="180" cy="640" r="3.5" fill="#00AAFF"/>
+    <line x1="180" y1="640" x2="180" y2="720"/>
+    <circle cx="180" cy="720" r="3.5" fill="#00AAFF"/>
+    <line x1="180" y1="720" x2="480" y2="720"/>
+    <circle cx="480" cy="720" r="3.5" fill="#00AAFF"/>
+    <line x1="480" y1="720" x2="480" y2="640"/>
+    <line x1="480" y1="640" x2="760" y2="640"/>
+    <circle cx="760" cy="640" r="3.5" fill="#00AAFF"/>
+    <line x1="760" y1="640" x2="760" y2="750"/>
+    <circle cx="760" cy="750" r="3.5" fill="#00AAFF"/>
+    <line x1="760" y1="750" x2="1100" y2="750"/>
+    <circle cx="1100" cy="750" r="3.5" fill="#00AAFF"/>
+    <line x1="1100" y1="750" x2="1100" y2="640"/>
+    <line x1="1100" y1="640" x2="1440" y2="640"/>
+
+    <!-- Component pads (small squares at key nodes) -->
+    <rect x="215" y="115" width="10" height="10" stroke="#00AAFF" fill="none"/>
+    <rect x="515" y="115" width="10" height="10" stroke="#00AAFF" fill="none"/>
+    <rect x="895" y="135" width="10" height="10" stroke="#00AAFF" fill="none"/>
+    <rect x="135" y="295" width="10" height="10" stroke="#00AAFF" fill="none"/>
+    <rect x="675" y="315" width="10" height="10" stroke="#00AAFF" fill="none"/>
+    <rect x="1045" y="315" width="10" height="10" stroke="#00AAFF" fill="none"/>
+    <rect x="295" y="485" width="10" height="10" stroke="#00AAFF" fill="none"/>
+    <rect x="845" y="505" width="10" height="10" stroke="#00AAFF" fill="none"/>
+
+    <!-- Arrow indicators -->
+    <polygon points="1435,260 1420,253 1420,267" fill="#00AAFF"/>
+    <polygon points="1435,450 1420,443 1420,457" fill="#00AAFF"/>
+    <polygon points="1435,640 1420,633 1420,647" fill="#00AAFF"/>
+  </g>
+</svg>
