@@ -328,7 +328,7 @@ Full 4-column footer on very dark background (`#060D20`).
 - Email: with envelope icon (from Customizer)
 - Hours: "Seg–Sex: 09h00–18h00"
 
-**Bottom bar:** thin top border `#1E2A4A`, copyright `© <?php echo date('Y'); ?> LWT Service. Todos os direitos reservados.` left, "Desenvolvido por F2F Digital" right (small text, muted).
+**Bottom bar:** thin top border `#1E2A4A`, copyright `© <?php echo date('Y'); ?> LWT Service. Todos os direitos reservados.` left, "Desenvolvido por Danilo Alves" right (small text, muted).
 
 **SCSS:** Background `#060D20`, all text `$color-text-mid`, titles `#fff`, links hover `$color-electric`.
 

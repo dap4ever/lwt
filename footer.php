@@ -107,7 +107,7 @@ $lwt_logo      = get_theme_mod( 'lwt_logo', '' );
 					<p>&copy; <?php echo esc_html( wp_date( 'Y' ) ); ?> LWT Service. Todos os direitos reservados.</p>
 				</div>
 				<div class="col-md-6 text-md-end">
-					<p>Desenvolvido por <a href="https://f2f-digital.com" target="_blank" rel="noopener noreferrer">F2F Digital</a></p>
+					<p>Desenvolvido por <a href="https://www.devwebwizard.com" target="_blank" rel="noopener noreferrer">Danilo Alves</a></p>
 				</div>
 			</div>
 		</div>
